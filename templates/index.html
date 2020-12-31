@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    List Of Words
+{% endblock %}
+
+{% block main %}
+    <form action="/new" method="post">
+        <fieldset>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Text" type="text"/>
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-default" type="submit">Submit Text</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <p> </p>
+    <p> </p>
+    <p style="font-size:100px">PERSONAL WORDS</p>
+    <ul style="text-align: left; text-transform: uppercase;">
+        {% for row in rows %}
+            <li>{{ row['symbol'] }}: {{ row['symbol'] }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
