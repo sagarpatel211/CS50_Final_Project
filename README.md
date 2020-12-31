@@ -1,4 +1,6 @@
 # CS50_Final_Proj
+Catch any new words recently? Well, ....
+
 A personal dictionary to store any words you want to keep close to enhance your vocabulary.
 
 
