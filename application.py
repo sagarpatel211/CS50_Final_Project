@@ -29,12 +29,12 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Configure CS50 Library to use SQLite database
-db = SQL("sqlite:///finance.db")
+db = SQL("sqlite:///words_storage.db")
 # ----------------------------------- #
 @app.route("/")
 @login_required
 def index():
-    rows = db.execute("SELECT symbol FROM transactions WHERE u_id=:u_id", u_id=session['user_id'])
+    rows = db.execute("SELECT symbol,quantity FROM words WHERE u_id=:u_id", u_id=session['user_id'])
     return render_template("index.html", rows=rows)
 # ----------------------------------- #
 @app.route("/new", methods=["GET", "POST"])
@@ -42,10 +42,11 @@ def index():
 def new():
     if request.method == "POST":
         symbol = request.form.get("symbol")
+        quantity = request.form.get("quantity")
         if not symbol:
             return apology("enter a some text")
-        db.execute("INSERT INTO transactions (symbol, quantity, price, u_id) VALUES (:symbol, :quantity, :price, :u_id);",
-        symbol=symbol, quantity=0, price=0, u_id=session["user_id"])
+        db.execute("INSERT INTO words (symbol, quantity, u_id) VALUES (:symbol, :quantity, :u_id);",
+        symbol=symbol, quantity=quantity, u_id=session["user_id"])
         return redirect("/")
     else:
         return render_template("index.html")
