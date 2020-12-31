@@ -6,15 +6,7 @@ A personal dictionary to store any words you want to keep close to enhance your 
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Features](#features)
-- [Contributors](#contributors)
 - [Contact](#contact)
-
-
-## Dependencies
-- [Python 3.0 or later](https://www.python.org/downloads/) 
-- [Python Flask](https://pypi.org/project/Flask/) 
-- [Python SQLAlchemy](https://pypi.org/project/SQLAlchemy/) 
-- [Python PyQt5](https://pypi.org/project/PyQt5/)
 
 
 ## Project Structure
