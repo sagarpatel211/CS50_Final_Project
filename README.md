@@ -44,7 +44,7 @@ a Flask framework, you can use it to store any words you want to keep close to e
 
 
 ## Description
-My final project for CS50 is a web application using Flask, Python and SQL (along with Sqllite3) bassed in part on the web track's distrubution code. The application is called "Dictocatch" and it is used as a personal dictionary for users so they can store any words and their definitons they find interesting. The personal list of words is only available to each individual with an account, so they must register if they are new. The system is also secure since all the passwords are used with SHA-256 and double-entry password during registration.
+My final project for CS50 is a web application using Flask, Python and SQL (along with Sqllite3) based in part on the web track's distribution code. The application is called "Dictocatch" and it is used as a personal dictionary for users so they can store any words and their definitions they find interesting. The personal list of words is only available to each individual with an account, so they must register if they are new. The system is also secure since all the passwords are used with SHA-256 and double-entry password during registration.
 
 
 ## Contact
