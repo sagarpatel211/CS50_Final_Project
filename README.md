@@ -5,9 +5,10 @@ A personal dictionary to store any words you want to keep close to enhance your 
 
 
 ## Table of Contents
+- [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Features](#features)
+- [Description](#Description)
 - [Contact](#contact)
 
 
@@ -18,35 +19,39 @@ A personal dictionary to store any words you want to keep close to enhance your 
   ├── config.py
   ├── data.db
   ├── static
-  │   ├── css
-  │   │   ├── styles.css
-  │   ├── fonts
-  │   ├── images
-  │   │   └── default.png
-  └── templates
-      ├── help.html
-      ├── history.html
-      ├── home.html
-      ├── login.html
-      ├── setting.html
-      ├── signup.html      
-      ├── template.html
-      ├── timer.html
-      └── todo.html
+  │   ├── book-left.png
+  │   ├── book-right.png
+  │   ├── error.png
+  │   ├── favicon.ico
+  │   ├── styles.css
+  │   └── words.png
+  ├── templates
+  │   ├── apology.html
+  │   ├── index.html
+  │   ├── layout.html
+  │   ├── login.html
+  │   └── register.html
+  ├── application.py
+  ├── helpers.py
+  └── words_storage.db
   ```
 
 ## Installation
-* Make sure all the dependencies are installed
-* Download the files
-  * Option 1: 🍴 Fork this repository!
-  * Option 2: 🧪 Clone the repository to your local machine using https://github.com/sagarpatel211/ICS_Productivity_App.git!
-* Open *main.py* in Python IDLE to open the program
-* Run the program
+* Open https://ide.cs50.io/
+* Download the files and upload the repository onto the CS50 IDE
+* In the terminal, run "cd Dictocatch" then "flask run"
+* Click the link to be redirected to my final project!
 
 
-## Features
-* ________________________
+## Description
+My Final Project for CS50 is a web application using Flask,
+Python ans SQL based in part on the web track's distribution code. T
+he application is named CS50 TODO and it provides the user with the
+possibility to make a personal list of things to do. The list will
+be only accesible to the user who will be asked to register with
+username and password. The user will be able to loginand logout.
+The user will be able to check and add new things to do to his personal list.
 
 
 ## Contact
-[Email](mailto:patelsag@students.dsbn.org) | [Website](https://sagarpatel211.github.io/)
+[Email](mailto:2sagarpatel2@gmail.com) | [Website](https://sagarpatel211.github.io/)
