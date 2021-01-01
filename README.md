@@ -1,7 +1,6 @@
 # CS50_Final_Proj
-Catch any new words recently? Well, ....
-
-A personal dictionary to store any words you want to keep close to enhance your vocabulary.
+Catch any new words recently? Well, using this personal dictionary web application based on
+a Flask framework, you can use it to store any words you want to keep close to enhance your vocabulary.
 
 
 ## Table of Contents
@@ -36,6 +35,7 @@ A personal dictionary to store any words you want to keep close to enhance your 
   └── words_storage.db
   ```
 
+
 ## Installation
 * Open https://ide.cs50.io/
 * Download the files and upload the repository onto the CS50 IDE
@@ -44,13 +44,7 @@ A personal dictionary to store any words you want to keep close to enhance your 
 
 
 ## Description
-My Final Project for CS50 is a web application using Flask,
-Python ans SQL based in part on the web track's distribution code. T
-he application is named CS50 TODO and it provides the user with the
-possibility to make a personal list of things to do. The list will
-be only accesible to the user who will be asked to register with
-username and password. The user will be able to loginand logout.
-The user will be able to check and add new things to do to his personal list.
+My final project for CS50 is a web application using Flask, Python and SQL (along with Sqllite3) bassed in part on the web track's distrubution code. The application is called "Dictocatch" and it is used as a personal dictionary for users so they can store any words and their definitons they find interesting. The personal list of words is only available to each individual with an account, so they must register if they are new. The system is also secure since all the passwords are used with SHA-256 and double-entry password during registration.
 
 
 ## Contact
