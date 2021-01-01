@@ -1,61 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-body{
-    background: #000000;
-    font-family: Poppins, sans-serif;
-    color: white;
-}
+body { background: #000000; font-family: Poppins, sans-serif; color: white; }
 
-nav .navbar-brand
-{
-    /* size for brand */
-    font-size: xx-large;
-}
+nav .navbar-brand { font-size: xx-large; }
 
-/* colors for brand */
-nav .navbar-brand .blue
-{
-    color: #005FF0;
-}
-nav .navbar-brand .red
-{
-    color: #ea433b;
-}
-nav .navbar-brand .yellow
-{
-    color: #f5b82e;
-}
-nav .navbar-brand .green
-{
-    color: #2e944b;
-}
+nav .navbar-brand .blue { color: #005FF0; }
 
-main .form-control
-{
-    /* center form controls */
-    display: inline-block;
+main .form-control { display: inline-block; width: auto; }
 
-    /* override Bootstrap's 100% width for form controls */
-    width: auto;
-}
+main { overflow-x: auto; text-align: center; }
 
-main
-{
-    /* scroll horizontally as needed */
-    overflow-x: auto;
+main img { max-width: 100%; }
 
-    /* center contents */
-    text-align: center;
-}
+main td { text-align: left; }
 
-main img
-{
-    /* constrain images on small screens */
-    max-width: 100%;
-}
+.left-booker { position:absolute; left:17%; top:10%; margin-left:-20px; margin-top:-10px; }
 
-main td
-{
-    /* left-align tables' cells */
-    text-align: left;
-}
+.right-booker { position:absolute; left:70%; top:10%; margin-left:-20px; margin-top:-10px; }

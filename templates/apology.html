@@ -1,9 +1,11 @@
 {% extends "layout.html" %}
-
 {% block title %}
     Apology
 {% endblock %}
-
 {% block main %}
-    <img alt="{{ top }}" class="border" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://i.imgur.com/CsCgN7Ll.png" title="{{ top }}">
+    <p style="font-size:60px">{{ top }} : {{ bottom.replace('-',' ').upper() }}</p>
+    <img src="static/error.png" alt="Reading" width="670">
+    <form action="login">
+        <button class="btn btn-primary" type="submit">Return To Login</button>
+    </form>
 {% endblock %}
