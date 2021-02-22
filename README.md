@@ -1,4 +1,4 @@
-# CS50_Final_Project
+# CS50 Final Project
 Catch any new words recently? Well, using this personal dictionary web application based on
 a Flask framework, you can use it to store any words you want to keep close to enhance your vocabulary.
 
