@@ -52,4 +52,4 @@ My final project for CS50 is a web application using Flask, Python and SQL (alon
 
 
 ## Contact
-[Email](mailto:2sagarpatel2@gmail.com) | [Website]( )
+[Email](mailto:sa24pate@uwaterloo.ca) | [Website](sagarpatel211.github.com/)
